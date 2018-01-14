@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = "angular.min.js">
+        
+        </script>
+       
+        <script src = "main.js">
+        
+        </script>
+        <link rel="stylesheet" href ="bootstrap.min.css">
+    </head>
+    <body>
+        <div ng-app="demo">
+ 
+            
+           
+            <div ng-controller="Mycontroller1">
+            	<h1>{{greeting}}</h1><br><br>
+                Emp-ID: <input type="text" ng-model="emp_id1"><br><br>
+                Name:   <input type="text" ng-model="name1"><br><br>
+                Contact:<input type="text" ng-model="contact1"><br><br>
+                Email-ID:<input type="text" ng-model="email1"><br><br>
+                Age    :<input type="text" ng-model="age1"><br><br>
+                Gender:<input type="text" ng-model="gender1"><br><br>
+                <button type = "submit" ng-click="create()" class="btn-info">SUBMIT</button><br><br>
+               
+            </div>
+            
+        </div>
+    </body>
+</html>

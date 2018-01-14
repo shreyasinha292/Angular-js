@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src = "angular.min.js">
+        
+              </script>
+                
+                
+              <script src = "main.js">
+                
+               
+
+              </script>
+              </head>
+    <body>
+    	<div ng-app="demo">
+
+            
+ 
+            
+           
+                <div ng-controller="Mycontroller3">
+                {{greeting}}
+                   <h1> Enter the id:</h1> <br><br>
+
+                   <input type = "number" ng-model="emp_id1"> 
+                   <button type="submit" ng-click="getProfile()">SUBMIT</button> <br><br>              
+  					
+                    <h1>
+                          name: {{getObject.name}}<br>
+                          age:  {{getObject.age}}<br>
+                          contact:{{getObject.contact}}<br>
+                          email:{{getObject.email}}<br>
+                          gender:{{getObject.gender}}<br>
+                    </h1>
+                        
+                
+                   
+				</div>
+        </div>
+    </body>
+</html>
